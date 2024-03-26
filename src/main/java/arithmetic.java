@@ -35,10 +35,10 @@ public class arithmetic {
                 System.out.println("-n 参数: 控制生成题目的个数 \n例如: Myapp.exe -n 10  将生成10个题目");
                 System.out.println("支持对给定的题目文件和答案文件，判定答案中的对错并进行数量统计 具体参数如下:\nMyapp.exe -e <exercisefile>.txt -a <answerfile>.txt");
             } else if (args[i].equals("-e")) {
-                efile = "D:\\javaCode\\operation\\src" + File.separator + args[i+1];
+                efile = "src" + File.separator + args[i+1];
                 range = 10; // 防止报错
             } else if (args[i].equals("-a")) {
-                afile = "D:\\javaCode\\operation\\src" + File.separator + args[i+1];
+                afile = "src" + File.separator + args[i+1];
                 range = 10;
             }
         }
